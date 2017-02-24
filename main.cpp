@@ -65,4 +65,37 @@ int main(void) {
         j++;
     }
     printf("%d, %d", a[0], a[1]);
-}*/
+}
+*/
+//* Simple Array Sum *//
+/*
+int main(void)
+{
+    int i = 0;
+    int n = 0;
+    int sum = 0;
+    scanf("%d", &i);
+
+    while(i--)
+    {
+        scanf("%d", &n);
+        sum += n;
+    }
+    printf("%d", sum);
+    return (0);
+}
+*/
+//* Solve Me First *//
+/*
+int main(void)
+{
+    int a = 0;
+    int b = 0;
+    int res = 0;
+
+    scanf("%d", &a);
+    scanf("%d", &b);
+    res = a + b;
+    printf("%d", res);
+}
+*/
